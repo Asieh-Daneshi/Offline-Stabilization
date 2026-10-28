@@ -1,5 +1,7 @@
 # Offline stabilisation of AOSLO videos
 
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?logo=mathworks&logoColor=white) ![Imaging](https://img.shields.io/badge/AOSLO-retinal%20imaging-8A2BE2) ![Method](https://img.shields.io/badge/reference%20frame-SSIM%20selection-blue)
+
 MATLAB code I used at the University Clinic Bonn (2020-2022) to stabilise adaptive-optics scanning laser ophthalmoscope (AOSLO) videos of the retina after recording, and to build clean averaged retinal images from them.
 
 Eye movements distort AOSLO frames during the scan, so each frame has to be registered strip by strip to a reference frame before frames can be averaged.
